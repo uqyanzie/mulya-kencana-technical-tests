@@ -1,0 +1,58 @@
+
+.titleText {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #e0f7fa;
+}
+
+.bodyText {
+  font-size: 1.2vw;
+  color: #e0f7fa;
+}
+
+.feed {
+  box-shadow: 0 0 0.1vw 0.4vw #e0f7fa, 0 0 0.4vw 0.6vw #7e8a8c, 0 0 1vw 0.4vw #26c6da;
+  border-radius: 10px;
+  background-color: inherit;
+  padding: 1.5vw 2vw;
+  margin: 10px 0;
+  width: 80vw;
+  height: max-content;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+
+.feed:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 1vw 0.4vw #26c6da, 0 0 0.1vw 0.4vw #e0f7fa, 0 0 0.4vw 0.6vw #7e8a8c;
+  color: 0 0 1vw 0.4vw #26c6da, 0 0 0.1vw 0.4vw #e0f7fa, 0 0 0.4vw 0.6vw #7e8a8c;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .feed {
+    padding: 2.5vw 3vw;
+  }
+
+  .titleText {
+    font-size: 3vw;
+  }
+  
+  .bodyText {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feed {
+    padding: 2.5vw 3vw;
+  }
+
+  .titleText {
+    font-size: 3vw;
+  }
+  
+  .bodyText {
+    font-size: 2vw;
+  }
+}

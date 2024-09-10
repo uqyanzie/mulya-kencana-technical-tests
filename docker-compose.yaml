@@ -1,0 +1,35 @@
+services:
+  static-page:
+    build: 
+      context: ./1-static-page
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  
+  dynamic-routing:
+    build: 
+      context: ./2-dynamic-routing
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+
+  api-routes:
+    build: 
+      context: ./3-api-routes
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+  
+  form-and-state-management:
+    build: 
+      context: ./4-form-and-state-management
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"
+
+  image-optimization:
+    build: 
+      context: ./5-image-optimization
+      dockerfile: Dockerfile
+    ports:
+      - "3004:3004"

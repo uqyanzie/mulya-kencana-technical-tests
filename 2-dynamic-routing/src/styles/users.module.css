@@ -1,0 +1,145 @@
+.dataList{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    column-gap: 2vw;
+    row-gap: 1.2vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card{
+    width: 26vw;
+    height: 18vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(243, 243, 243, 0.1);
+    padding: 35px 25px;
+    margin: 10px;
+}
+
+.cardContent{
+    height: 75%;
+    margin-bottom: 20px;
+}
+
+.cardContent h2{
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.cardContent h3{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.cardContent p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardContent a{
+    text-decoration: underline;
+}
+
+.cardActions{
+    display: flex;
+    justify-content: end;
+}
+
+.routeButton{
+    background-color: #f0f0f0;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  0 0 0.5vw 0.4vw #141617, 0 0 0.1vw 0.4vw #e0f7fa, 0 0 0.4vw 0.6vw #7e8a8c;
+    cursor: pointer;
+}
+
+.routeButton:hover{
+    background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 1200px){
+    .dataList{
+        column-gap: 1.5vw;
+        row-gap: 1vw;
+        justify-content: center;
+    }
+
+    .card{
+        width: 35vw;
+        height: 32vw;
+        padding: 30px 25px;
+    }
+
+    .cardContent{
+        margin-bottom: 30px;
+    }
+
+    .cardContent h2{
+        font-size: 2.4rem;
+    }
+
+    .cardContent h3{
+        font-size: 1.7rem;
+    }
+
+    .cardContent p{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .card{
+        width: 40vw;
+        height: 38vw;
+        padding: 25px 25px;
+    }
+
+    .cardContent h2{
+        font-size: 1.6rem;
+    }
+
+    .cardContent h3{
+        font-size: 1.2rem;
+    }
+
+    .cardActions{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .dataList{
+        justify-content: center;
+    }
+
+    .card{
+        width: 90vw;
+        height: 50vw;
+        padding: 15px 25px;
+    }
+
+    .cardContent h2{
+        font-size: 2.5rem;
+    }
+
+    .cardContent h3{
+        font-size: 1.5rem;
+    }
+
+    .cardContent p{
+        font-size: 1.2rem;
+    }
+
+    .cardActions{
+        display: flex;
+    }
+    
+}

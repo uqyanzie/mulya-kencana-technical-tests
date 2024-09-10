@@ -1,0 +1,50 @@
+[
+    {
+        "title" : "City 1",
+        "src" : "/city-1.jpg"
+    },
+    {
+        "title" : "City 2",
+        "src" : "/city-2.jpg"
+    },
+    {
+        "title" : "City 3",
+        "src" : "/city-3.jpg"
+    },
+    {
+        "title" : "City 4",
+        "src" : "/city-4.jpg"
+    },
+    {
+        "title" : "City 5",
+        "src" : "/city-5.jpg"
+    },
+    {
+        "title" : "City 6",
+        "src" : "/city-6.jpeg"
+    },
+    {
+        "title" : "City 7",
+        "src" : "/city-7.webp"
+    },
+    {
+        "title" : "City 8",
+        "src" : "/city-8.jpg"
+    },
+    {
+        "title" : "City 9",
+        "src" : "/city-9.jpg"
+    },
+    {
+        "title" : "City 10",
+        "src" : "/city-10.jpg"
+    },
+    {
+        "title" : "City 11",
+        "src" : "/city-11.jpg"
+    },
+    {
+        "title" : "City 12",
+        "src" : "/city-12.jpg"
+    }
+]
