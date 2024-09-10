@@ -5,9 +5,11 @@
 1. Clone this repository
 2. `cd` into the repository
 
-### Run all in one command
-Run `./run-all.sh` in the terminal (using linux terminal or git bash is recommended)
-
+### Run / Stop all in one command
+Run : `./cmd.sh start` in the terminal 
+Stop : `./cmd.sh stop` in the terminal 
+(using linux terminal or git bash is recommended)
+ 
 ### Run with docker-compose
 Run `docker-compose up` in the terminal
 
