@@ -11,6 +11,10 @@ start_projects() {
   for dir in "${directories[@]}"; do
     (
         cd "$dir" || exit
+        if [ ! -d "node_modules" ]; then
+          echo "Installing dependencies in $dir"
+          npm install
+        fi
         echo "Starting Next.js in $dir"
         npm run dev &
         pids+=($!) # Save the process ID
