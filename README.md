@@ -22,7 +22,7 @@ Run `docker-compose up` in the terminal
 [x] User Detail: ![dynamic routing](./assets/2-dynamic-routing-detail.jpg)
 
 #### 3. API routes
-[x] All Users: ![api routes](./assets/3-api-routes.jpg)
+[x] All Products: ![api routes](./assets/3-api-routes.jpg)
 
 #### 5. Image Optimization
 [x] Image Optimization: ![image optimization](./assets/5-image-optimization.jpg)
